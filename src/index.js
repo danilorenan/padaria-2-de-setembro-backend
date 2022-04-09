@@ -25,6 +25,6 @@ app.use('/files', express.static(path.resolve(__dirname, '..', 'temp', 'uploads'
 
 app.use('/api', postRoute);
 
-app.listen(3333, () => {
+app.listen(5555, () => {
     console.log('Backend is running')
 })
